@@ -41,27 +41,15 @@ padding: 30px 10%;
     transition: all 0.3s ease 0s;
 
 }
-.navlink li a:hover{
-    color: blue;
-}
-button{
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s; 
-}
+
 button:hover{
     background-color:rgba(0, 136, 169, 0.8) ;
 }
 .dropbtn {
-    background-color: #8f1010;
-    color: rgba(10, 9, 9, 0.281);
+    color: rgba(253, 103, 153, 0.281);
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
 }
   .dropdown {
     position: relative;
@@ -118,6 +106,8 @@ button:hover{
 }
 .bannertext p{
     font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 18px;
 }
 .bannerimg{
     width: 50%;
@@ -128,13 +118,14 @@ img{
  .bannertext button{
     border: none;
     border-radius: 5px;
-    padding: 20px 30px;
+    margin: 40px 0px;
+    padding: 10px 30px;
     font-size: 20px;
     text-transform: capitalize;
     font-family: sans-serif;
     color: #fff;
     background-color: cyan;
-    transition: all linear 0.5s;
+    transition: all linear 0.2s;
 
 }
 .bannertext button:hover{
@@ -143,14 +134,14 @@ img{
 /*banner about*/
 .abouttext{
     text-align: center;
-    padding: 20px 20px;
-    margin: 30px 30px;
+    padding: 120px 2%;
+    margin: 30px 20px;
     border: 1px solid #fff;
     border-radius: 3px;
     box-shadow: #222;
     border: 1px hidden #BFBFBF;
     background-color: white;
-    box-shadow:10px 10px 20px 20px #aaaaaa;
+    box-shadow:0px 0px 20px 0px #aaaaaa;
 
 }
 .about{
@@ -159,14 +150,24 @@ img{
 .about a{
     text-decoration: none;
     color: violet;
-    padding: 10px 30px;
-    margin-top: 20px;
+    line-height: 120px;
+    margin: auto;
+    color: purple;
+}
+.abouttext h2{
+    line-height: 20px;
+    margin: 20px;
 }
 .about .abouttext .icon {
-    padding: 6px 10px;
-    margin: 18px 20px;
-    width: 211px;
-    font-size: 45px;
+    margin: 0px auto;
+    border-radius: 100%;
+    box-shadow: 5px;
+    background-color: #f1f1f1;
+    width: 30%;
+    font-size: 70px;
+}
+.abouttext .icon{
+    color: rgb(119, 207, 119);
 }
 /*business part*/
 .business{
@@ -178,7 +179,17 @@ img{
      font-family: sans-serif;
  }
  .businesstext h2{
-     margin: 3px 3px;
+     margin: 10px 0px;
+     line-height: 30px;
+ }
+ .businesstext p{
+     line-height: 25px;
+     padding: 12px 0px;
+     margin: 0px;
+ }
+ .businesstext ul li{
+     margin: 0px 20px;
+     line-height: 30px;
  }
  .businesstext{
      max-width: 50%;
@@ -189,20 +200,24 @@ img{
  .businesstext button{
     border: none;
     border-radius: 5px;
-    padding: 20px 30px;
+    margin: 20px 0px;
+    padding: 10px 30px;
     font-size: 20px;
     text-transform: capitalize;
     font-family: sans-serif;
     color: #fff;
     background-color: cyan;
     transition: all linear 0.5s;
-
+}
+.businesstext button:hover{
+    color: white;
+    background: wheat;
 }
 /*service part*/
 .servicepart{
     text-align: center;
-    padding: 20px 20px;
-    margin: 30px 30px;
+    padding: 20px 10px;
+    margin: 10px;
     border: 1px solid #fff;
     border-radius: 3px;
     box-shadow: #222;
@@ -211,24 +226,40 @@ img{
     box-shadow:10px 10px 20px 20px #aaaaaa;
 
 }
+.servicetext p{
+    line-height: 30px;
+}
+
+
 .servicetext{
     text-align: center;
     font-family: sans-serif;
 }
 .servicetext h2{
-    font-size: 30px;
+    font-size: 40px;
     font-family: sans-serif;
+    margin: 30px;
+    line-height: 30px;
 }
 .service{
     display: flex;
 }
-.service .servicepart .icon{
-    padding: 6px 10px;
-    margin: 18px 20px;
-    width: 211px;
-    font-size: 45px;
-    background-color: green;
+.servicepart p{
+    
+    margin-bottom: 80px;
+    line-height: 24px;
 }
+.servicepart h2{
+    margin: 20px;
+}
+.service .servicepart .icon{
+    width: 70px;
+    margin: 0px auto;
+    font-size: 60px;
+    border-radius: 50%;
+    background-color: rgb(119, 207, 119);
+}
+
 /*button*/
 dropbtn {
     background-color: #c9318f;
@@ -282,18 +313,20 @@ dropbtn {
   .company{
       display: flex;
       align-items: center;
-      padding: 60px 0 60px 0;
-
-  }
+}
   .companytext h3{
-      font-size: 15px;
+      font-size: 25px;
+      line-height: 30px;
+      margin: 10px 2px; 
   }
   .companytext h4{
       font-size: 20px;
+      margin: 30px 0px 30px 0px;
+
   }
 .companytext p{
     font-size: 25px;
-    margin: 0;
+    margin: 20px 0px;
     font-weight: 400;
 }
 .companycount{
@@ -303,4 +336,63 @@ dropbtn {
 }
 .single{
     width: 33.33%;
+    
+}
+.companycount .single h3{
+    font-size: 30px;
+}
+.companycount .single p{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+/*partner */
+
+.partnertext{
+    padding: 40px 50px;
+    text-align: center;
+}
+.partnertext h2{
+    margin: 20px;
+    font-size: 30px;
+}
+.partnertext p{
+    padding: 0px 20px;
+    line-height: 30px;
+}
+.partnericon{
+    text-align: center;
+    
+}
+/*email*/
+.box{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 100vh;
+}
+.formbox{
+    padding: 10px;
+    border-radius: 5px;
+    background: #f1f1f1;
+    box-shadow: 5px 5px 5px #f9f9f9;
+}
+.formbox input{
+    font-size: 40px;
+    color: black;
+    padding: 2px 40px;
+    border: none;
+    outline: none;
+    background: #ececec;
+}
+.formbox button{
+    color: white;
+    padding: 20px 20px;
+    font-size: 20px;
+
+}
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
